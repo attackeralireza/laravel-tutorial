@@ -7,7 +7,7 @@ use App\Category;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use \Cviebrock\EloquentSluggable\Services\SlugService;
-
+use Exception;
 
 class ArticleController extends Controller
 {
